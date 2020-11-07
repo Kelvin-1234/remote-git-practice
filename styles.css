@@ -1,44 +1,41 @@
-.flex-container {
-    width: 1000px;
-    
-    border: 10px solid #334;
-    margin: 20px auto;
-    padding: 10px;
-    color: #fff;
-
-    /* flex start */
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+                                        .flex-container {
+                                            width: 1000px;
+                                            border: 10px solid #334;
+                                            margin: 20px auto;
+                                            padding: 10px;
+                                            color: #fff;
+                                            /* flex start */
+                                            font-size: 24px;
+                                            display: flex;
+                                            justify-content: center;
+                                            flex-direction: column;
 
 
 
 
 }
 
-.navigation {
-    background: red;
-    padding: 20px;
-    margin: 10px 0;
+                                        .navigation{
+                                                     background: red;
+                                                     padding: 20px;
+                                                     margin: 10px 0;
+                                                     flex: 1;
+}
+                                        .header{
+                                                padding: 20px;
+                                                background: hotpink;
+                                                margin-bottom: 10px;
+                                                height: 50vh;
+                                                flex: 5vw;
+}
+                                        .sidebar{
+                                                 background: lightblue;
 
-    flex: 1;
 }
-.header  {
-    padding: 20px;
-    background: hotpink;
-    margin-bottom: 10px;
-    height: 50vh;
-    flex: 5vw;
+                                        .main-content{
+                                                      background: deepskyblue;
 }
-.sidebar {
-    background: lightblue;
-
-}
-.main-content {
-    background: deepskyblue;
-}
-.footer {
-    background: #555; 
+                                        .footer{
+                                                background: #555; 
 }
 
